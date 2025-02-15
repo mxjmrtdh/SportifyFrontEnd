@@ -1,19 +1,10 @@
-import './App.css'
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-
   return (
     <>
-      <header>
-        <h1>Bienvenido a Sportify</h1>
-        <nav>
-          <ul>
-            <li>Inicio</li>
-            <li>Sobre nosotros</li>
-            <li>Contacto</li>
-          </ul>
-        </nav>
-      </header>
+      <Header/>
       <main>
         <h2>Contenido Principal</h2>
         <p>Aquí va la información básica de del sitio web.</p>
@@ -22,7 +13,7 @@ function App() {
         <p>2025 Sportify. Digital House.</p>
       </footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
